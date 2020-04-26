@@ -6,7 +6,7 @@ export default class PasswordComponent extends PureComponent {
   }
 
   componentDidMount () {
-    
+    console.log("Changed");
   }
   render() {
     console.log("child component", this.props)
